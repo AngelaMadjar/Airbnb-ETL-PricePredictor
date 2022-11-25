@@ -60,6 +60,13 @@ The response should be: "Estimated price": 68.82
 ![image](https://user-images.githubusercontent.com/74113692/203972987-0baad669-3d9b-460c-bc4a-2832662de6aa.png)
 
 
+## Future improvements:
+- Automate the ETL proces and schedule it to run on weekly basis (possibly with Airflow)
+- Schedule training of the ML model each time new data is loaded to the database
+- To do so, restructure the code to increase modularity
+- Even better: train the model incrementally
+- Perform data validation on the received request (possibly with Marshmallow)
+
 
 
 
