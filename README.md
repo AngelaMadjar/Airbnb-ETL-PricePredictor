@@ -1,9 +1,6 @@
 # **Airbnb ETL process & Price Predictor ML model**
 
 
-![image](https://user-images.githubusercontent.com/74113692/203973174-b02f48a6-a7e6-412d-b8ce-dab5988d518a.png)
-
-
 This repository contains the Extraction, Transformation and Loading process for data extracted from the public **Airbnb API**. 
 In addition, it contains the code for exposing the ML model as a REST API and the Jupyter Notebook where the model is trained as well.
 
@@ -53,7 +50,8 @@ Sample Json body:
 The response should be: "Estimated price": 68.82
 
 
-# Simple Project Schema
+## Simple Project Schema
+
 ![image](https://user-images.githubusercontent.com/74113692/203972987-0baad669-3d9b-460c-bc4a-2832662de6aa.png)
 
 
