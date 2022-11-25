@@ -4,7 +4,7 @@
 This repository contains the Extraction, Transformation and Loading process for data extracted from the public **Airbnb API**. 
 In addition, it contains the code for exposing the ML model as a REST API and the Jupyter Notebook where the model is trained as well.
 
-## **USAGE: **
+## *USAGE: *
 
 ### ETL Process
 To run the etl_process/etl.py, replace the API key with yours and change the database credentials accordingly.
@@ -13,6 +13,7 @@ This ETL process utilizes the *Get Property By Place* method.
 
 *NOTE: The free plan enables 10 API invocations. Currently, the data is extracted for 12 cities (by envoking the API with 2 different keys and appending 
 the results in the database. In case of running the code, remove 2 city ids for simplicity purposes.*
+
 
 
 ### Price Estimator
@@ -27,6 +28,7 @@ Additionaly, it compares the performances of a collection of Linear Regression a
 The best performing model is saved locally in a .pkl format.
 
 *NOTE: The database containing extracted accommodation data is not available yet.*
+
 
 
 ### Exposing the ML model
