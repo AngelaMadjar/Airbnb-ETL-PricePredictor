@@ -1,7 +1,7 @@
 # **Airbnb ETL process & Price Predictor ML model**
 
 
-![image-2.png](attachment:image-2.png)
+![image](https://user-images.githubusercontent.com/74113692/203973174-b02f48a6-a7e6-412d-b8ce-dab5988d518a.png)
 
 
 This repository contains the Extraction, Transformation and Loading process for data extracted from the public **Airbnb API**. 
