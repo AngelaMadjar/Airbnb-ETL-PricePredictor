@@ -34,7 +34,9 @@ The best performing model is saved locally in a .pkl format.
 ### Exposing the ML model
 The model is readily available in the model/airbnb_price_estimator.pkl and there is no need to train it all over again. 
 The app.py can be started by running *run flask* in the terminal. It can be tested with Postman with the following url: http://127.0.0.1:5000/predict
+
 Sample Json body:
+
 *{
     "city": "Milan",
     "avg_rating": 4.7,
@@ -49,6 +51,7 @@ Sample Json body:
     "check_in": "December",
     "is_super_host": true
 }*
+
 The response should be: "Estimated price": 68.82
 
 
