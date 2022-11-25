@@ -4,7 +4,7 @@
 This repository contains the Extraction, Transformation and Loading process for data extracted from the public **Airbnb API**. 
 In addition, it contains the code for exposing the ML model as a REST API and the Jupyter Notebook where the model is trained as well.
 
-## *USAGE: *
+## USAGE: 
 
 ### ETL Process
 To run the etl_process/etl.py, replace the API key with yours and change the database credentials accordingly.
